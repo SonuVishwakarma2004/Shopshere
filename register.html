@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image:"bg.jpg";
+            background-size: cover;
+        }
+        .main{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            position: relative;
+      
+        }
+        .login{
+            height: 90vh;
+            width: 40vw;
+            border: 2px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 4vh;
+        }
+        .login h1{
+            margin-top: 4vh;
+            font-size:2vw;
+        }
+        .login h2{
+            font-size: 4vw;
+            margin-top: -3vh;
+            margin-bottom: 6vh;
+        }
+
+.container {
+  width: 25vw;
+  height: 10vh;
+  background-color:transparent;
+  padding: 20px;
+  margin: 70px auto;
+  border-radius: 4px;
+  margin-top: 4vh;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+p {
+  text-align: center;
+}
+@media (max-width:600px) {
+    .login {
+    height: 90vh;
+    width: 82vw;
+    border: 2px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 4vh;
+}
+.login h1 {
+    margin-top: 4vh;
+    font-size: 9vw;
+}
+.login h2 {
+    font-size: 9vw;
+    margin-top: -3vh;
+    margin-bottom: 6vh;
+}
+.container {
+    width: 64vw;
+    height: 10vh;
+    padding: 20px;
+    margin: 70px auto;
+    border-radius: 4px;
+    margin-top: 4vh;
+}
+    
+}
+
+    </style>
+    <body>
+     <div class="main">
+        <div class="login">
+            <h1>Welcome To</h1>
+            <h2>ShopSphere.com</h2>
+            <div class="container">
+                <h2>Register</h2>
+                <form>
+                  <label for="email">Email:</label><br>
+                  <input type="email" id="email" name="email" required><br>
+                  <label for="password">New Password:</label><br>
+                  <input type="password" id="password" name="password" required><br>
+                  <input type="submit" value="Login">
+                </form>
+                <p>Already have an account? <a href="login.html">Login</a></p>
+              </div>
+        </div>
+     </div>
+    </body>
+</html>
